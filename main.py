@@ -11,6 +11,10 @@ class bankAccount:
     customerName = ""
     minimumBalance = 0.00
 
+    #protected and private variables both with random 10 digit routing and account numbers
+    _accountNumber = random.randint(1000000000, 9999999999)
+    __routingNumber = random.randint(1000000000, 9999999999)
+
     #This method deposits money into the bank account
     def deposit(self, amount):
         self.customerBalance += amount
