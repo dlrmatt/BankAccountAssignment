@@ -35,6 +35,10 @@ class bankAccount:
 class savingsAccount(bankAccount):
     interestRate = 0.00
 
+#Checking Account Subclass
+class checkingAccount(bankAccount):
+    transferLimit = 0.00
+
 #Initilizing account and printing account1 information
 account1 = bankAccount()
 account1.bankName = "UNCC Bank"
