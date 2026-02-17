@@ -32,9 +32,8 @@ class bankAccount:
         print("Minimum Balance: " + str(self.minimumBalance) + "\n")
 
 #Savings Account Subclass
-class savingsAccount(bankAccount){
+class savingsAccount(bankAccount):
     interestRate = 0.00
-}
 
 #Initilizing account and printing account1 information
 account1 = bankAccount()
