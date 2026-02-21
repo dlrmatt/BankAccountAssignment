@@ -9,7 +9,7 @@ from savingsAccount import savingsAccount
 account1 = bankAccount()
 account1.bankName = "UNCC Bank"
 account1.customerBalance = 100.00
-account1.customerName = "Account1 Owner"
+account1.customerName = "John Doe"
 account1.printAccountInfo()
 
 #Customer and printing account1 information
