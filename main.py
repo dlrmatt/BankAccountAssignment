@@ -5,14 +5,14 @@ from bankaccount import bankAccount
 from checkingaccount import checkingAccount
 from savingsAccount import savingsAccount
 
-#Initilizing account and printing account1 information
+#Customer opens account
 account1 = bankAccount()
 account1.bankName = "UNCC Bank"
 account1.customerBalance = 100.00
 account1.customerName = "Account1 Owner"
 account1.printAccountInfo()
 
-#Testing withdraw and printing account1 information
+#Customer and printing account1 information
 account1.withdraw(50.00)
 account1.printAccountInfo()
 
